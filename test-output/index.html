@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\USER\AppData\Local\Temp\testng-eclipse-1639504110\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">43 methods, 2 failed,   41 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="project_Image_FullScreen_Expand_Button2">project_Image_FullScreen_Expand_Button2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="project_Image_Shrink_Button2">project_Image_Shrink_Button2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Back_Arrow_Button">Back_Arrow_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Back_Arrow_Button2">Back_Arrow_Button2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="ContactUs_Option">ContactUs_Option</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="ContactUs_Option2">ContactUs_Option2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="ContactUs_Option3">ContactUs_Option3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Home_Icon_Functionality">Home_Icon_Functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Next_Arrow_Button">Next_Arrow_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Next_Arrow_Button2">Next_Arrow_Button2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Portfolio_Button">Portfolio_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Portfolio_Button2">Portfolio_Button2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Portfolio_Button3">Portfolio_Button3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Close_Button">Project_Image_Close_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Close_Button2">Project_Image_Close_Button2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Close_Button3">Project_Image_Close_Button3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Expand_Button">Project_Image_Expand_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Expand_Button2">Project_Image_Expand_Button2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Expand_Button3">Project_Image_Expand_Button3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Eye_Button">Project_Image_Eye_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Eye_Button2">Project_Image_Eye_Button2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Eye_Button3">Project_Image_Eye_Button3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Next_Arrow_Button">Project_Image_Next_Arrow_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Next_Arrow_Button2">Project_Image_Next_Arrow_Button2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Next_Button">Project_Image_Next_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Next_Button2">Project_Image_Next_Button2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Next_Button3">Project_Image_Next_Button3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Pause_Play_Button">Project_Image_Pause_Play_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Pause_Play_Button2">Project_Image_Pause_Play_Button2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Play_Button">Project_Image_Play_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Play_Button2">Project_Image_Play_Button2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Play_Button3">Project_Image_Play_Button3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Previous_Arrow_Button">Project_Image_Previous_Arrow_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Previous_Arrow_Button2">Project_Image_Previous_Arrow_Button2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Previous_Button">Project_Image_Previous_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Previous_Button2">Project_Image_Previous_Button2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Previous_Button3">Project_Image_Previous_Button3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Title">Project_Image_Title</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Title2">Project_Image_Title2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Image_Title3">Project_Image_Title3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="Project_Section">Project_Section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="project_Image_FullScreen_Expand_Button">project_Image_FullScreen_Expand_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ProjectModule.ProjectPageFunctionalityTest" class="method navigator-link" hash-for-method="project_Image_Shrink_Button">project_Image_Shrink_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ProjectModule.ProjectPageFunctionalityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="project_Image_FullScreen_Expand_Button2">
+                  </a> <!-- project_Image_FullScreen_Expand_Button2 -->
+                  <span class="method-name">project_Image_FullScreen_Expand_Button2</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.119)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd254caa95975c7e0eb7c3dd7f284231, clickElement {id=f.9BDA802507807CFFAF9D089180E7251E.d.52E339E195C78202CD16DE56E3AE728B.e.202}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64961/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cd254caa95975c7e0eb7c3dd7f284231)] -&gt; xpath: //a[@title=&apos;Expand the image&apos;]]
+Session ID: cd254caa95975c7e0eb7c3dd7f284231
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at ProjectModule.ProjectPageFunctionalityTest.project_Image_FullScreen_Expand_Button2(ProjectPageFunctionalityTest.java:270)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="project_Image_Shrink_Button2">
+                  </a> <!-- project_Image_Shrink_Button2 -->
+                  <span class="method-name">project_Image_Shrink_Button2</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.119)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd254caa95975c7e0eb7c3dd7f284231, clickElement {id=f.9BDA802507807CFFAF9D089180E7251E.d.52E339E195C78202CD16DE56E3AE728B.e.202}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64961/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cd254caa95975c7e0eb7c3dd7f284231)] -&gt; xpath: //a[@title=&apos;Expand the image&apos;]]
+Session ID: cd254caa95975c7e0eb7c3dd7f284231
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at ProjectModule.ProjectPageFunctionalityTest.project_Image_Shrink_Button2(ProjectPageFunctionalityTest.java:276)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ProjectModule.ProjectPageFunctionalityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Back_Arrow_Button">
+                  </a> <!-- Back_Arrow_Button -->
+                  <span class="method-name">Back_Arrow_Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Back_Arrow_Button2">
+                  </a> <!-- Back_Arrow_Button2 -->
+                  <span class="method-name">Back_Arrow_Button2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactUs_Option">
+                  </a> <!-- ContactUs_Option -->
+                  <span class="method-name">ContactUs_Option</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactUs_Option2">
+                  </a> <!-- ContactUs_Option2 -->
+                  <span class="method-name">ContactUs_Option2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactUs_Option3">
+                  </a> <!-- ContactUs_Option3 -->
+                  <span class="method-name">ContactUs_Option3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_Icon_Functionality">
+                  </a> <!-- Home_Icon_Functionality -->
+                  <span class="method-name">Home_Icon_Functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Next_Arrow_Button">
+                  </a> <!-- Next_Arrow_Button -->
+                  <span class="method-name">Next_Arrow_Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Next_Arrow_Button2">
+                  </a> <!-- Next_Arrow_Button2 -->
+                  <span class="method-name">Next_Arrow_Button2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Portfolio_Button">
+                  </a> <!-- Portfolio_Button -->
+                  <span class="method-name">Portfolio_Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Portfolio_Button2">
+                  </a> <!-- Portfolio_Button2 -->
+                  <span class="method-name">Portfolio_Button2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Portfolio_Button3">
+                  </a> <!-- Portfolio_Button3 -->
+                  <span class="method-name">Portfolio_Button3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Close_Button">
+                  </a> <!-- Project_Image_Close_Button -->
+                  <span class="method-name">Project_Image_Close_Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Close_Button2">
+                  </a> <!-- Project_Image_Close_Button2 -->
+                  <span class="method-name">Project_Image_Close_Button2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Close_Button3">
+                  </a> <!-- Project_Image_Close_Button3 -->
+                  <span class="method-name">Project_Image_Close_Button3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Expand_Button">
+                  </a> <!-- Project_Image_Expand_Button -->
+                  <span class="method-name">Project_Image_Expand_Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Expand_Button2">
+                  </a> <!-- Project_Image_Expand_Button2 -->
+                  <span class="method-name">Project_Image_Expand_Button2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Expand_Button3">
+                  </a> <!-- Project_Image_Expand_Button3 -->
+                  <span class="method-name">Project_Image_Expand_Button3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Eye_Button">
+                  </a> <!-- Project_Image_Eye_Button -->
+                  <span class="method-name">Project_Image_Eye_Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Eye_Button2">
+                  </a> <!-- Project_Image_Eye_Button2 -->
+                  <span class="method-name">Project_Image_Eye_Button2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Eye_Button3">
+                  </a> <!-- Project_Image_Eye_Button3 -->
+                  <span class="method-name">Project_Image_Eye_Button3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Next_Arrow_Button">
+                  </a> <!-- Project_Image_Next_Arrow_Button -->
+                  <span class="method-name">Project_Image_Next_Arrow_Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Next_Arrow_Button2">
+                  </a> <!-- Project_Image_Next_Arrow_Button2 -->
+                  <span class="method-name">Project_Image_Next_Arrow_Button2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Next_Button">
+                  </a> <!-- Project_Image_Next_Button -->
+                  <span class="method-name">Project_Image_Next_Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Next_Button2">
+                  </a> <!-- Project_Image_Next_Button2 -->
+                  <span class="method-name">Project_Image_Next_Button2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Next_Button3">
+                  </a> <!-- Project_Image_Next_Button3 -->
+                  <span class="method-name">Project_Image_Next_Button3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Pause_Play_Button">
+                  </a> <!-- Project_Image_Pause_Play_Button -->
+                  <span class="method-name">Project_Image_Pause_Play_Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Pause_Play_Button2">
+                  </a> <!-- Project_Image_Pause_Play_Button2 -->
+                  <span class="method-name">Project_Image_Pause_Play_Button2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Play_Button">
+                  </a> <!-- Project_Image_Play_Button -->
+                  <span class="method-name">Project_Image_Play_Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Play_Button2">
+                  </a> <!-- Project_Image_Play_Button2 -->
+                  <span class="method-name">Project_Image_Play_Button2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Play_Button3">
+                  </a> <!-- Project_Image_Play_Button3 -->
+                  <span class="method-name">Project_Image_Play_Button3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Previous_Arrow_Button">
+                  </a> <!-- Project_Image_Previous_Arrow_Button -->
+                  <span class="method-name">Project_Image_Previous_Arrow_Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Previous_Arrow_Button2">
+                  </a> <!-- Project_Image_Previous_Arrow_Button2 -->
+                  <span class="method-name">Project_Image_Previous_Arrow_Button2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Previous_Button">
+                  </a> <!-- Project_Image_Previous_Button -->
+                  <span class="method-name">Project_Image_Previous_Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Previous_Button2">
+                  </a> <!-- Project_Image_Previous_Button2 -->
+                  <span class="method-name">Project_Image_Previous_Button2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Previous_Button3">
+                  </a> <!-- Project_Image_Previous_Button3 -->
+                  <span class="method-name">Project_Image_Previous_Button3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Title">
+                  </a> <!-- Project_Image_Title -->
+                  <span class="method-name">Project_Image_Title</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Title2">
+                  </a> <!-- Project_Image_Title2 -->
+                  <span class="method-name">Project_Image_Title2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Image_Title3">
+                  </a> <!-- Project_Image_Title3 -->
+                  <span class="method-name">Project_Image_Title3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Project_Section">
+                  </a> <!-- Project_Section -->
+                  <span class="method-name">Project_Section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="project_Image_FullScreen_Expand_Button">
+                  </a> <!-- project_Image_FullScreen_Expand_Button -->
+                  <span class="method-name">project_Image_FullScreen_Expand_Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="project_Image_Shrink_Button">
+                  </a> <!-- project_Image_Shrink_Button -->
+                  <span class="method-name">project_Image_Shrink_Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\USER\AppData\Local\Temp\testng-eclipse-1639504110\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ProjectModule.ProjectPageFunctionalityTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(43);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Portfolio_Button3')
+data.setCell(0, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(0, 3, 41785);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ContactUs_Option3')
+data.setCell(1, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(1, 3, 25688);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ContactUs_Option')
+data.setCell(2, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(2, 3, 16594);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Project_Image_Eye_Button')
+data.setCell(3, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(3, 3, 14247);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Project_Image_Eye_Button2')
+data.setCell(4, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(4, 3, 11352);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Project_Image_Eye_Button3')
+data.setCell(5, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(5, 3, 11324);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Project_Image_Play_Button3')
+data.setCell(6, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(6, 3, 10290);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Project_Image_Play_Button')
+data.setCell(7, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(7, 3, 10126);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Project_Image_Play_Button2')
+data.setCell(8, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(8, 3, 10113);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Project_Image_Title')
+data.setCell(9, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(9, 3, 9670);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Project_Image_Title2')
+data.setCell(10, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(10, 3, 8156);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Project_Image_Title3')
+data.setCell(11, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(11, 3, 7691);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Back_Arrow_Button2')
+data.setCell(12, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(12, 3, 7623);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Portfolio_Button2')
+data.setCell(13, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(13, 3, 7590);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Next_Arrow_Button')
+data.setCell(14, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(14, 3, 7301);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Back_Arrow_Button')
+data.setCell(15, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(15, 3, 7236);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Home_Icon_Functionality')
+data.setCell(16, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(16, 3, 7236);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Portfolio_Button')
+data.setCell(17, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(17, 3, 7197);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Next_Arrow_Button2')
+data.setCell(18, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(18, 3, 7075);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ContactUs_Option2')
+data.setCell(19, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(19, 3, 7000);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Project_Image_Expand_Button')
+data.setCell(20, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(20, 3, 5342);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Project_Image_Expand_Button3')
+data.setCell(21, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(21, 3, 5319);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Project_Image_Previous_Button2')
+data.setCell(22, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(22, 3, 5297);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Project_Image_Next_Button2')
+data.setCell(23, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(23, 3, 5295);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Project_Image_Expand_Button2')
+data.setCell(24, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(24, 3, 5291);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Project_Image_Next_Button')
+data.setCell(25, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(25, 3, 5289);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Project_Image_Previous_Button')
+data.setCell(26, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(26, 3, 5268);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Project_Image_Next_Button3')
+data.setCell(27, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(27, 3, 5265);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Project_Image_Previous_Button3')
+data.setCell(28, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(28, 3, 5258);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Project_Image_Close_Button3')
+data.setCell(29, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(29, 3, 5135);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Project_Image_Previous_Arrow_Button')
+data.setCell(30, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(30, 3, 5129);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'project_Image_FullScreen_Expand_Button2')
+data.setCell(31, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(31, 3, 5114);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'Project_Image_Next_Arrow_Button2')
+data.setCell(32, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(32, 3, 5113);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'project_Image_FullScreen_Expand_Button')
+data.setCell(33, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(33, 3, 5108);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'Project_Image_Pause_Play_Button')
+data.setCell(34, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(34, 3, 5108);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'Project_Image_Pause_Play_Button2')
+data.setCell(35, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(35, 3, 5105);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'Project_Image_Close_Button')
+data.setCell(36, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(36, 3, 5099);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'Project_Image_Next_Arrow_Button')
+data.setCell(37, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(37, 3, 5099);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'Project_Image_Close_Button2')
+data.setCell(38, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(38, 3, 5082);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'Project_Image_Previous_Arrow_Button2')
+data.setCell(39, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(39, 3, 5082);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'Project_Section')
+data.setCell(40, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(40, 3, 4191);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'project_Image_Shrink_Button')
+data.setCell(41, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(41, 3, 153);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'project_Image_Shrink_Button2')
+data.setCell(42, 2, 'ProjectModule.ProjectPageFunctionalityTest')
+data.setCell(42, 3, 45);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProjectModule.ProjectPageFunctionalityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Open_Website</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Project_Section</span>
+                <span class="method-start">21971 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_Icon_Functionality</span>
+                <span class="method-start">26177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Title</span>
+                <span class="method-start">33426 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Portfolio_Button</span>
+                <span class="method-start">43096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ContactUs_Option</span>
+                <span class="method-start">50295 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Back_Arrow_Button</span>
+                <span class="method-start">66896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Eye_Button</span>
+                <span class="method-start">74136 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Expand_Button</span>
+                <span class="method-start">88391 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">project_Image_FullScreen_Expand_Button</span>
+                <span class="method-start">93746 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">project_Image_Shrink_Button</span>
+                <span class="method-start">98861 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Next_Button</span>
+                <span class="method-start">99023 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Previous_Button</span>
+                <span class="method-start">104315 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Play_Button</span>
+                <span class="method-start">109586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Pause_Play_Button</span>
+                <span class="method-start">119714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Next_Arrow_Button</span>
+                <span class="method-start">124832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Previous_Arrow_Button</span>
+                <span class="method-start">129933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Close_Button</span>
+                <span class="method-start">135064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Title2</span>
+                <span class="method-start">140166 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Portfolio_Button2</span>
+                <span class="method-start">148342 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ContactUs_Option2</span>
+                <span class="method-start">155937 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Next_Arrow_Button</span>
+                <span class="method-start">162941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Back_Arrow_Button2</span>
+                <span class="method-start">170248 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Eye_Button2</span>
+                <span class="method-start">177884 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Expand_Button2</span>
+                <span class="method-start">189241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">project_Image_FullScreen_Expand_Button2</span>
+                <span class="method-start">194538 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">project_Image_Shrink_Button2</span>
+                <span class="method-start">199666 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Next_Button2</span>
+                <span class="method-start">199715 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Previous_Button2</span>
+                <span class="method-start">205016 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Play_Button2</span>
+                <span class="method-start">210319 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Pause_Play_Button2</span>
+                <span class="method-start">220435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Next_Arrow_Button2</span>
+                <span class="method-start">225542 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Previous_Arrow_Button2</span>
+                <span class="method-start">230660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Close_Button2</span>
+                <span class="method-start">235743 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Title3</span>
+                <span class="method-start">240830 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Portfolio_Button3</span>
+                <span class="method-start">248523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ContactUs_Option3</span>
+                <span class="method-start">290312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Next_Arrow_Button2</span>
+                <span class="method-start">316001 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Eye_Button3</span>
+                <span class="method-start">323077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Expand_Button3</span>
+                <span class="method-start">334414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Next_Button3</span>
+                <span class="method-start">339733 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Previous_Button3</span>
+                <span class="method-start">345004 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Play_Button3</span>
+                <span class="method-start">350277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Project_Image_Close_Button3</span>
+                <span class="method-start">360572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tesrDown</span>
+                <span class="method-start">365714 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
